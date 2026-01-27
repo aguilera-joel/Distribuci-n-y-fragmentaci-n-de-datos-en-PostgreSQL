@@ -4,9 +4,13 @@ En esta nueva práctica con PostgreSQL vamos a trabajar la distribución y fragm
 
 Para poder verlo de manera clara, vamos a crear un entorno virtual de 3 máquinas con un Ubuntu Server 24.04 en VirtualBox.
 Cada una de estas máquinas tendrá PostgreSQL con la base de datos **dvdrental** que restauramos en la primera práctica. Para hacerlo más fácil en la primera máquina que luego replicaré, usaré los pasos que documenté en la práctica 1 (instalación de PostgreSQL) y en la práctica 2 (restauración de la base de datos “dvdrental”).
+
 Las 3 máquinas serán:
+
 Server 1 (gateway) - 192.168.60.1
+
 Server 2 (current) - 192.168.60.2
+
 Server 3 (history) - 192.168.60.3
 
 > [!NOTE]
